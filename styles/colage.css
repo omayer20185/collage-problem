@@ -1,0 +1,28 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+.row{
+
+    height: 200px;
+    display: flex;
+    margin-bottom: 5px;
+    gap: 5px;
+}
+.row > div{
+    flex: 1;
+}
+.varticle-collage{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.varticle-collage img{
+    height: calc((100% - 5px)/2);
+}
+.square-collage{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 5px;
+}
+
